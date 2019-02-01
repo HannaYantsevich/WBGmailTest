@@ -35,15 +35,15 @@ public class AbstractedPage {
         }
     }
 
-    protected void waitForElementVisible(By locator) {
+    protected void waitForElementVisible(WebElement element) {
         new WebDriverWait(driver, WAIT_FOR_ELEMENT_SECONDS)
-                .until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+                .until(ExpectedConditions.visibilityOf(element));
 
     }
 
-    protected void waitForElementPresent(By locator) {
+    protected void waitForElementPresent(WebElement elem) {
         new WebDriverWait(driver, WAIT_FOR_ELEMENT_SECONDS)
-                .until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
+                .until(ExpectedConditions.visibilityOf(elem));
 
     }
 

@@ -4,6 +4,7 @@ import PageFactory.GmailPasswordPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -34,25 +35,13 @@ public class GmailTest {
 
         Thread.sleep(1000);
         GmailMainPage gmailmainpage = gmailpasswordpage.pressNextButton().pressComposeButton();
-
-        //gmailmainpage.recipentInput();
-        //gmailmainpage.subjectInput();
-        //gmailmainpage.bodyInput();
-        //gmailmainpage.saveAndCloseButton();
-        gmailmainpage.createNewEmailAndSaveItInDrafts();
+        gmailmainpage.recipentInput().subjectInput().bodyInput().saveAndCloseButton();
+        //gmailmainpage.createNewEmailAndSaveItInDrafts();
         Thread.sleep(1000);
-        gmailmainpage.draftButton();
-        Thread.sleep(1000);
-        gmailmainpage.clickOnDraftEmail();
-        gmailmainpage.sendButton();
-        Thread.sleep(2000);
+        gmailmainpage.draftButton().clickOnDraftEmail().sendButton();
         gmailmainpage.sentButton();
-        Thread.sleep(2000);
-        gmailmainpage.draftsButton();
-        gmailmainpage.noDraftsButton();
-        gmailmainpage.imageButton();
-        Thread.sleep(2000);
-        gmailmainpage.signOutButton();
+        gmailmainpage.draftsButton().noDraftsButton();
+        gmailmainpage.imageButton().signOutButton();
 
     }
 

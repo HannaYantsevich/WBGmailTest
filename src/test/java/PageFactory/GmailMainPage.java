@@ -1,18 +1,16 @@
 package PageFactory;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class GmailMainPage extends AbstractedPage{
-    private Logger log = Logger.getLogger(GmailMainPage.class);
+public class GmailMainPage extends AbstractedPage {
 
     @FindBy(css = ".aic .z0 div")
     private WebElement composeButton;
 
-    @FindBy(xpath = "//div[contains(text(),'Compose')]")
+    @FindBy(css = ".oj div textarea")
     private WebElement recipientInput;
 
     @FindBy(xpath = "//input[@name='subjectbox']")
@@ -50,31 +48,38 @@ public class GmailMainPage extends AbstractedPage{
     }
 
     public GmailMainPage pressComposeButton() {
+        waitForElementPresent(composeButton);
         composeButton.click();
         return new GmailMainPage(driver);
     }
 
     public GmailMainPage recipentInput() {
+        waitForElementPresent(recipientInput);
+        waitForElementVisible(recipientInput);
         recipientInput.sendKeys(RECEIVER);
-        return this;
+        return new GmailMainPage(driver);
     }
 
     public GmailMainPage subjectInput() {
+        waitForElementVisible(subjectInput);
         subjectInput.sendKeys(SUBJECT);
         return this;
     }
 
     public GmailMainPage bodyInput() {
+        waitForElementVisible(bodyInput);
         bodyInput.sendKeys(BODY);
         return this;
     }
 
     public GmailMainPage saveAndCloseButton() {
+        waitForElementVisible(saveAndClose);
         saveAndClose.click();
         return this;
     }
 
     public GmailMainPage draftButton() {
+        waitForElementVisible(draftButton);
         draftButton.click();
         return this;
     }
@@ -117,8 +122,9 @@ public class GmailMainPage extends AbstractedPage{
     }
 
 
-    public GmailMainPage  createNewEmailAndSaveItInDrafts() {
+    public GmailMainPage createNewEmailAndSaveItInDrafts() {
         pressComposeButton()
+
                 .recipentInput()
                 .subjectInput()
                 .bodyInput()

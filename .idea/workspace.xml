@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9ac3506-102d-4748-88d5-1d7e96e433c0" name="Default Changelist" comment="" />
+    <list default="true" id="c9ac3506-102d-4748-88d5-1d7e96e433c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageFactory/AbstractedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageFactory/AbstractedPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageFactory/GmailMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageFactory/GmailMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GmailTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GmailTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/GmailLoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/GmailMainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1221">
-              <caret line="109" column="40" lean-forward="true" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+            <state relative-caret-position="195">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +34,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/AbstractedPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/GmailPasswordPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +58,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GmailTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+            <state relative-caret-position="276">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2087#2088#0" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/GmailMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,6 +90,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -85,18 +100,19 @@
         <option value="$PROJECT_DIR$/src/test/java/Utils/RandomString.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageFactory/GmailLoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageFactory/GmailPasswordPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageFactory/GmailMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageFactory/AbstractedPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageFactory/GmailMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/GmailTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1650" />
-    <option name="y" value="34" />
-    <option name="width" value="1584" />
-    <option name="height" value="952" />
+    <option name="x" value="1599" />
+    <option name="y" value="23" />
+    <option name="width" value="1661" />
+    <option name="height" value="1016" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -152,7 +168,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549017482587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549030067648" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,54 +226,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GmailTest_GmailTest - 2019.01.31 at 17h 56m 22s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 16h 59m 16s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GmailTest_GmailTest - 2019.01.31 at 17h 56m 51s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 17h 01m 02s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GmailTest_GmailTest - 2019.01.31 at 17h 57m 29s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 17h 01m 10s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GmailTest_GmailTest - 2019.01.31 at 17h 57m 55s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 17h 01m 16s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GmailTest_GmailTest - 2019.01.31 at 18h 00m 04s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 17h 01m 32s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 12h 54m 20s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 17h 01m 58s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 12h 54m 26s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 17h 02m 32s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 13h 04m 31s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 17h 03m 08s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 13h 04m 51s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 17h 04m 02s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 13h 05m 26s.xml">
+    <history-entry file="GmailTest_GmailTest - 2019.02.01 at 17h 04m 31s.xml">
       <configuration name="GmailTest.GmailTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1650" y="34" width="1584" height="952" extended-state="0" />
+    <frame x="1599" y="23" width="1661" height="1016" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2378011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32906976" />
+      <window_info anchor="bottom" id="Messages" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32906976" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30627707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,13 +290,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utils/RandomString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -287,10 +297,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/GmailLoginPage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="43" />
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/GmailPasswordPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -299,15 +316,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/AbstractedPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/GmailPasswordPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/GmailLoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -316,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageFactory/GmailMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="109" column="40" lean-forward="true" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+        <state relative-caret-position="359">
+          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -326,10 +346,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GmailTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        <state relative-caret-position="276">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
           </folding>
         </state>
       </provider>

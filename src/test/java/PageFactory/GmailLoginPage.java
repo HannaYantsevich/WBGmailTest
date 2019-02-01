@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class GmailLoginPage extends AbstractedPage{
+public class GmailLoginPage extends AbstractedPage {
     private Logger log = Logger.getLogger(GmailLoginPage.class);
 
     private static final String URL = "https://www.google.com/gmail/about/new/";
