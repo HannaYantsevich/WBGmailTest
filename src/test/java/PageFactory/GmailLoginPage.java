@@ -29,6 +29,7 @@ public class GmailLoginPage extends AbstractedPage {
     }
 
     public GmailLoginPage pressSigninButton() {
+        highlightElement(driver, signInButton);
         signInButton.click();
         return new GmailLoginPage(driver);
     }

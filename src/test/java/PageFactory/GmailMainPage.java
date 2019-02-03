@@ -1,11 +1,16 @@
 package PageFactory;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class GmailMainPage extends AbstractedPage {
+
+    @FindBy(xpath = "//div[@class='G-asx T-I-J3 J-J5-Ji']")
+    private WebElement expandMoreButton;
 
     @FindBy(css = ".aic .z0 div")
     private WebElement composeButton;
@@ -43,26 +48,53 @@ public class GmailMainPage extends AbstractedPage {
     @FindBy(xpath = "//*[contains(text(), 'Sign out')]")
     private WebElement signOutButton;
 
+    @FindBy(xpath = "//input[@placeholder = 'Search mail']")
+    private WebElement searchField;
+
+
     public GmailMainPage(WebDriver driver) {
         super(driver);
     }
 
+
+    public GmailMainPage enterSearchFieldSpace() {
+        waitForElementPresent(searchField);
+        highlightElement(driver, searchField);
+        new Actions(driver).sendKeys(Keys.SPACE).build().perform();
+        unhighlightElement(driver, searchField);
+        return new GmailMainPage(driver);
+    }
+
+    public void doubleClickMoreButton() {
+        waitForElementPresent(expandMoreButton);
+        highlightElement(driver, expandMoreButton);
+        new Actions(driver).doubleClick().build().perform();
+        unhighlightElement(driver, expandMoreButton);
+    }
+
+
     public GmailMainPage pressComposeButton() {
         waitForElementPresent(composeButton);
+        highlightElement(driver, composeButton);
         composeButton.click();
+        unhighlightElement(driver, composeButton);
         return new GmailMainPage(driver);
     }
 
     public GmailMainPage recipentInput() {
         waitForElementPresent(recipientInput);
         waitForElementVisible(recipientInput);
+        highlightElement(driver, recipientInput);
         recipientInput.sendKeys(RECEIVER);
+        unhighlightElement(driver, recipientInput);
         return new GmailMainPage(driver);
     }
 
     public GmailMainPage subjectInput() {
         waitForElementVisible(subjectInput);
+        highlightElement(driver, subjectInput);
         subjectInput.sendKeys(SUBJECT);
+        unhighlightElement(driver, subjectInput);
         return this;
     }
 

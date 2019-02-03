@@ -63,12 +63,14 @@ public class AbstractedPage {
         JavascriptExecutor ex = (JavascriptExecutor) driver;
         ex.executeScript("arguments[0].click();", element);
     }
-    protected void highlightElement(By locator) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='3px solid green'", driver.findElement(locator));
+
+    protected void highlightElement(WebDriver driver, WebElement element) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='3px solid green'", element);
 
     }
-    protected void unhighlightElement(By locator) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='0px'", driver.findElement(locator));
+
+    protected void unhighlightElement(WebDriver driver, WebElement element) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='0px'", element);
 
     }
 }
